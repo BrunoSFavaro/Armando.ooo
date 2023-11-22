@@ -1,6 +1,6 @@
 import { WORDS } from "./words.js";
 
-// toastr.options = {
+//   toastr.options = {
 //   closeButton: true,
 //   ResizeObserverSize: "toast-top-full-width",
 //   positionClass: "toast-top-full-width",
@@ -48,6 +48,20 @@ document.addEventListener("keyup", (e) => {
   }
 
   let eventKey = String(e.key);
+  if (eventKey === "ArrowRight" || eventKey === "Space"){
+    if(nextLetter<4){
+    nextLetter++
+    }
+  }
+
+  if (eventKey === "ArrowLeft"){
+    if(nextLetter>0){
+    nextLetter--
+    }
+  }
+  // console.log(eventKey)
+
+
   if (eventKey === "Backspace" && nextLetter !== 0) {
     deleteLetter();
     return;

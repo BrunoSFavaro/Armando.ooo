@@ -101,7 +101,7 @@ export const WORDS = [
     'censo',
     'fugaz',
     'gleba',
-    'xibiu',
+    'tropa',
     'forte',
     'vício',
     'vulgo',
@@ -1072,5 +1072,16 @@ export const WORDS = [
     'tonto',
     'trono',
     'quilo',
-    'pinto'
+    'pinto',
+    'prega',
+    'funde',
+    'idosa',
+    'feira',
+    'feias',
+    'licor',
+    'piore',
+    'risão',
+    'saído',
+    'segui',
+    
 ];
